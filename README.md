@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @developer020.
-- 👀 I'm a new Front-End developer.
-- 🌱 I’m currently learning CS50 & Web Development.
-- 💞️ I’m looking to collaborate on anything that allows me to expand my programming knowledge.
+- 👋 Hi, I’m Zamzam Ali.
+- 👀 I'm a new Software Engineer.
+- 🌱 CS50 class of 2023 & Udemy class of I'm-not-built-for-self-paced.
+- 💞️ My interests range from block-chain, to Ai, to Quantum Computing (I'm sure you can tell I'm a newbie).
 - 📫 I am free to contact on collaborations and other opportunities.
 
 <!---
