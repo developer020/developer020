@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Zamzam Ali.
-- 👀 I'm a new Software Engineer.
-- 🌱 CS50 class of 2023 & Udemy class of I'm-not-built-for-self-paced.
-- 💞️ My interests range from block-chain, to Ai, to Quantum Computing (I'm sure you can tell I'm a newbie).
+- 👀 Software Engineering extraordinaire.
+- 🌱 CS50 class of 2023 & Udemy class of I-can't-wait-to-finish.
+- 💞️ My interests range from block-chain, to Ai, to Quantum Computing (I'm sure you can tell I'm multidimensional).
 - 📫 I am free to contact on collaborations and other opportunities.
 
 <!---
