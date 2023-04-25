@@ -5,7 +5,7 @@
 
 - 👨‍💻 All of my projects are available at [https://zamuali826.wixsite.com/myportfolio](https://zamuali826.wixsite.com/myportfolio)
 
-- 💬 Ask me about **Machine Learning & AI.**
+- 💬 Ask me about **Anything Web-related.**
 
 - 📫 How to reach me **zeemohamudali@gmail.com**
 
