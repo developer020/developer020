@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Zamzam</h1>
 <h3 align="center">A Full-Stack web developer</h3>
 
-- 🌱 I’m currently learning **React.js**
+- 🌱 Currently **Developing a Website for A School** as a freelance project.
 
 - 👨‍💻 All of my projects are available at [https://zamuali826.wixsite.com/myportfolio](https://zamuali826.wixsite.com/myportfolio)
 
