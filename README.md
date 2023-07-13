@@ -3,7 +3,7 @@
 
 - 🌱 Currently **Developing a Website for A School** as a freelance project.
 
-- 👨‍💻 All of my projects are available at [https://zamuali826.wixsite.com/myportfolio](https://zamuali826.wixsite.com/myportfolio)
+- 👨‍💻 My projects portfolio website: https://zamzamdeveloper.vercel.app/
 
 - 💬 Ask me about **Anything Web-related.**
 
