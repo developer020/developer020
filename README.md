@@ -13,7 +13,7 @@
 
 - 📄 Know about my experiences [https://zamzamdeveloper.vercel.app/CS-Resume.pdf](https://zamzamdeveloper.vercel.app/CS-Resume.pdf)
 
-- ⚡ Fun fact **I am a gym rat**
+- ⚡ Fun fact **I'm a gym rat**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
