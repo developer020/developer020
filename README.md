@@ -2,7 +2,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=developer020" alt="developer020" /></a> </p>
 
-- 🔭 I’m currently working with **Lanesa Pharma as a Frontend Engineer**
+- 🔭 I’m currently working with **Lanesa Pharma** as a **Frontend Engineer**
 
 - 🌱 I’m currently learning **Backend Technologies**
 
