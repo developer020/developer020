@@ -5,7 +5,7 @@
 
 - 🔭 I am currently working as a **Frontend Engineer**
 
-- 🌱 I’m currently learning **Backend Technologies**
+- 🌱 To grow my skills, I am also learning **Backend Technologies**
 
 - 👨‍💻 Some of my projects are available at [https://zamzamdeveloper.vercel.app/](https://zamzamdeveloper.vercel.app/)
 
