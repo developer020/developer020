@@ -3,9 +3,9 @@
 <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=developer020" alt="developer020" /></a> </p> -->
 
 
-- 🔭 I am currently working as a **Frontend Engineer**
+- 🔭 **Software Engineer & Innovator**
 
-- 🌱 To grow my skills, I am also learning **Backend Technologies**
+- 🌱 To grow my skills, I am always **learning**
 
 - 👨‍💻 Some of my projects are available at [https://zamzamdeveloper.vercel.app/](https://zamzamdeveloper.vercel.app/)
 
