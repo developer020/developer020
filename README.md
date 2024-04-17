@@ -5,15 +5,15 @@
 
 - 🔭 **Software Engineer, Data Innovator & Leader**
 
-- 🌱 To grow my skills, I am always **learning**
+- 🌱 A student for life, I am always **learning**
 
-- 👨‍💻 Some of my projects are available at [https://zamzamdeveloper.vercel.app/](https://zamzamdeveloper.vercel.app/)
+- 👨‍💻 My Portfolio website [https://zamzamdeveloper.vercel.app/](https://zamzamdeveloper.vercel.app/)
 
 - 📫 How to reach me **zeemohamudali@gmail.com**
 
-- 📄 Know about my experiences [https://zamzamdeveloper.vercel.app/CS-Resume.pdf](https://zamzamdeveloper.vercel.app/CS-Resume.pdf)
+- 📄 My professional life highlight-reel [https://zamzamdeveloper.vercel.app/CS-Resume.pdf](https://zamzamdeveloper.vercel.app/CS-Resume.pdf)
 
-- ⚡ Fun fact **I'm a gym rat**
+- ⚡ Fun fact **I'm a quote merchant**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
