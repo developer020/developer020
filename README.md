@@ -1,9 +1,9 @@
-<h3 align="center">Zamzam Ali | Product Specialist</h3>
+<h3 align="center">Zamzam Ali | Product Manager</h3>
 
 <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=developer020" alt="developer020" /></a> </p> -->
 
 
-- 🔭 **Software Engineer, Data Innovator & Leader**
+- 🔭 **Software Engineer, Innovator & Leader**
 
 - 🌱 A student for life, I am always **learning**
 
