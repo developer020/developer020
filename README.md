@@ -11,9 +11,9 @@
 
 - 📫 How to reach me **zeemohamudali@gmail.com**
 
-- 📄 My professional life highlight-reel [https://zamzamdeveloper.vercel.app/CS-Resume.pdf](https://zamzamdeveloper.vercel.app/CS-Resume.pdf)
+- 📄 My career brag-sheet [https://zamzamdeveloper.vercel.app/CS-Resume.pdf](https://zamzamdeveloper.vercel.app/CS-Resume.pdf)
 
-- ⚡ Fun fact **I'm a quote merchant**
+- ⚡ Fun fact **I'm a quote aficionado**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
