@@ -1,9 +1,9 @@
-<h3 align="center">Zamzam Ali | Executive Manager</h3>
+<h3 align="center">Zamzam Ali | Executive Product Manager</h3>
 
 <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=developer020" alt="developer020" /></a> </p> -->
 
 
-- 🔭 **Software Engineer, Innovator & Leader**
+- 🔭 **Product Leader, Software Engineer, & Innovator**
 
 - 🌱 A student for life, I am always **learning**
 
