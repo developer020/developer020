@@ -5,7 +5,7 @@
 
 - 🔭 **Product Leader, Software Engineer, & Innovator**
 
-- 🌱 A student for life, I am always **learning**
+- 🌱 Student, forever **learning**
 
 - 👨‍💻 My Portfolio website [https://zamzamdeveloper.vercel.app/](https://zamzamdeveloper.vercel.app/)
 
@@ -13,7 +13,7 @@
 
 - 📄 My career brag-sheet [https://zamzamdeveloper.vercel.app/CS-Resume.pdf](https://zamzamdeveloper.vercel.app/CS-Resume.pdf)
 
-- ⚡ Fun fact **I'm a quote aficionado**
+- ⚡ Fun fact **I'm a quote merchant**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
