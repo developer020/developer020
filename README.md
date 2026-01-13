@@ -7,13 +7,11 @@
 
 - 🌱 Student, forever **learning**
 
-- 👨‍💻 My Portfolio website [https://zamzamdeveloper.vercel.app/](https://zamzamdeveloper.vercel.app/)
-
 - 📫 How to reach me **zeemohamudali@gmail.com**
 
 - 📄 My career brag-sheet [https://zamzamdeveloper.vercel.app/CS-Resume.pdf](https://zamzamdeveloper.vercel.app/CS-Resume.pdf)
 
-- ⚡ Fun fact **I'm a quote merchant**
+- ⚡ Fun fact **I'm an obsessive problem solver**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
