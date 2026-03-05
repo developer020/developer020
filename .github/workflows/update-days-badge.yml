@@ -2,7 +2,7 @@ name: Update GitHub Days Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # every day at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
@@ -12,10 +12,8 @@ jobs:
   update-days:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout repo
       - uses: actions/checkout@v4
 
-      # Step 2: Calculate number of days since June 1, 2022
       - name: Calculate GitHub Days
         id: days
         run: |
@@ -23,16 +21,12 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           DAYS=$(( ( $(date -d "$TODAY" +%s) - $(date -d "$START_DATE" +%s) ) / 86400 ))
           echo "DAYS=$DAYS" >> $GITHUB_ENV
-          echo "Days since $START_DATE: $DAYS"
 
-      # Step 3: Generate SVG badge
       - name: Generate GitHub Days SVG
         run: |
-          curl -s "https://img.shields.io/badge/GitHub_Days-${DAYS}-blue?style=for-the-badge" -o assets/main/days.svg
-        env:
-          DAYS: ${{ env.DAYS }}
+          mkdir -p assets/main
+          curl -s "https://img.shields.io/badge/GitHub_Days-${{ env.DAYS }}-blue?style=for-the-badge" -o assets/main/days.svg
 
-      # Step 4: Commit and push badge
       - name: Commit and push badge
         run: |
           git config --local user.name "GitHub Action"
