@@ -28,7 +28,7 @@
   <a href="https://github.com/iamphill/streak-stats"><img align="center" src="https://streak-stats.demolab.com?user=developer020&theme=dark" alt="Zamzam Ali's GitHub streak" /></a>
 </p>
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=developer020&show_icons=true&theme=dark&count_private=true" alt="Zamzam Ali's GitHub stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=developer020&show_icons=true&theme=dark&count_private=true" alt="Zamzam Ali GitHub Stats" />
 </p>
 
 ---
