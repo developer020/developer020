@@ -4,7 +4,7 @@ Just a Parisian who loves rain and pasta ☔🍝
 
 ---
 
-## 💼 co-founder @ building something cool
+co-founder @ building something cool
 
 ---
 
