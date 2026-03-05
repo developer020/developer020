@@ -48,7 +48,7 @@ founder @ 2 AI-native products
 [![Lines of Code](https://img.shields.io/badge/Lines_of_Code-748,903%20and%20counting-yellow?style=for-the-badge)](https://github.com/developer020)
 <!-- [![GitHub Days](https://raw.githubusercontent.com/developer020/developer020/main/assets/main/days.svg)](https://github.com/developer020) -->
 
-<h3 align="left">GitHub Stats:</h3>
+<!-- <h3 align="left">GitHub Stats:</h3> -->
 <p>
   <a href="https://github.com/iamphill/streak-stats"><img align="center" src="https://streak-stats.demolab.com?user=developer020&theme=dark" alt="Zamzam Ali's GitHub streak" /></a>
 </p>
