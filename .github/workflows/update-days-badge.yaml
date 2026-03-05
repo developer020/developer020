@@ -2,11 +2,11 @@ name: Update GitHub Days Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'  # every day at midnight UTC
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write  # needed for git push
 
 jobs:
   update-days:
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: false  # important to override default token
+          fetch-depth: 0  # fetch full history to allow commits
 
       - name: Ensure badge directory exists
         run: mkdir -p assets/main
@@ -38,5 +38,4 @@ jobs:
           git config --local user.email "action@github.com"
           git add assets/main/days.svg
           git diff --quiet || git commit -m "Update GitHub Days badge"
-          # use GITHUB_TOKEN explicitly
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+          git push
