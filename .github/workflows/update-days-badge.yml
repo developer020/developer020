@@ -1,4 +1,4 @@
-name: Update GitHub Days Badge
+name: Update GitHub Days JSON
 
 on:
   schedule:
@@ -6,19 +6,16 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # needed for git push
+  contents: write
 
 jobs:
   update-days:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout repo
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # fetch full history to allow commits
 
-      - name: Ensure badge directory exists
-        run: mkdir -p assets/main
-
+      # Step 2: Calculate number of days since June 1, 2022
       - name: Calculate GitHub Days
         id: days
         run: |
@@ -28,14 +25,22 @@ jobs:
           echo "DAYS=$DAYS" >> $GITHUB_ENV
           echo "Days since $START_DATE: $DAYS"
 
-      - name: Generate GitHub Days Badge
+      # Step 3: Update JSON file
+      - name: Update JSON badge
         run: |
-          curl -s "https://img.shields.io/badge/GitHub_Days-${DAYS}-blue?style=for-the-badge" -o assets/main/days.svg
+          BADGE_FILE="assets/main/days.json"
+          echo "{
+            \"schemaVersion\": 1,
+            \"label\": \"GitHub Days\",
+            \"message\": \"${DAYS}\",
+            \"color\": \"blue\"
+          }" > $BADGE_FILE
 
-      - name: Commit and push badge
+      # Step 4: Commit and push JSON update
+      - name: Commit JSON update
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "action@github.com"
-          git add assets/main/days.svg
-          git diff --quiet || git commit -m "Update GitHub Days badge"
+          git add assets/main/days.json
+          git diff --quiet || git commit -m "Update GitHub Days JSON"
           git push
