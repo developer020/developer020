@@ -23,9 +23,9 @@ co-founder @ building something cool
 ---
 
 <p align="center">
-  <img width="70" height="70" alt="Back Market" src="https://raw.githubusercontent.com/developer020/assets/bm.png" />
+  <img width="70" height="70" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/bm.png" alt="Back Market" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img width="70" height="70" alt="UN WFP" src="https://raw.githubusercontent.com/developer020/assets/unwfp.png" />
+  <img width="70" height="70" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/unwfp.png" alt="UN WFP" />
 </p>
 
 ---
