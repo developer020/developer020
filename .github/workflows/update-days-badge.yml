@@ -1,4 +1,4 @@
-name: Update GitHub Days JSON
+name: Update GitHub Days Badge
 
 on:
   schedule:
@@ -25,22 +25,18 @@ jobs:
           echo "DAYS=$DAYS" >> $GITHUB_ENV
           echo "Days since $START_DATE: $DAYS"
 
-      # Step 3: Update JSON file
-      - name: Update JSON badge
+      # Step 3: Generate SVG badge
+      - name: Generate GitHub Days SVG
         run: |
-          BADGE_FILE="assets/main/days.json"
-          echo "{
-            \"schemaVersion\": 1,
-            \"label\": \"GitHub Days\",
-            \"message\": \"${DAYS}\",
-            \"color\": \"blue\"
-          }" > $BADGE_FILE
+          curl -s "https://img.shields.io/badge/GitHub_Days-${DAYS}-blue?style=for-the-badge" -o assets/main/days.svg
+        env:
+          DAYS: ${{ env.DAYS }}
 
-      # Step 4: Commit and push JSON update
-      - name: Commit JSON update
+      # Step 4: Commit and push badge
+      - name: Commit and push badge
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "action@github.com"
-          git add assets/main/days.json
-          git diff --quiet || git commit -m "Update GitHub Days JSON"
+          git add assets/main/days.svg
+          git diff --quiet || git commit -m "Update GitHub Days badge"
           git push
