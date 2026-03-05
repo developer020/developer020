@@ -2,24 +2,23 @@ name: Update GitHub Days Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # every day at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write  # allow workflow to push to repo
+  contents: write
 
 jobs:
   update-days:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the repo
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # important to override default token
 
-      # Step 2: Ensure the badge directory exists
       - name: Ensure badge directory exists
         run: mkdir -p assets/main
 
-      # Step 3: Calculate number of days since June 1, 2022
       - name: Calculate GitHub Days
         id: days
         run: |
@@ -29,19 +28,15 @@ jobs:
           echo "DAYS=$DAYS" >> $GITHUB_ENV
           echo "Days since $START_DATE: $DAYS"
 
-      # Step 4: Generate the SVG badge
       - name: Generate GitHub Days Badge
         run: |
-          BADGE_FILE="assets/main/days.svg"
-          curl -s "https://img.shields.io/badge/GitHub_Days-${DAYS}-blue?style=for-the-badge" --output $BADGE_FILE
+          curl -s "https://img.shields.io/badge/GitHub_Days-${DAYS}-blue?style=for-the-badge" -o assets/main/days.svg
 
-      # Step 5: Commit and push the updated badge
-      - name: Commit GitHub Days badge
+      - name: Commit and push badge
         run: |
-          git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Authenticate using the default GITHUB_TOKEN
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git config --local user.email "action@github.com"
           git add assets/main/days.svg
           git diff --quiet || git commit -m "Update GitHub Days badge"
-          git push
+          # use GITHUB_TOKEN explicitly
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
