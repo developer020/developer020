@@ -45,7 +45,7 @@ founder @ 2 AI-native products
 
 ## 📊 GitHub Metrics
 
-[![Lines of Code](https://raw.githubusercontent.com/developer020/github-metrics/main/loc.svg)](https://github.com/developer020)  
+[![Lines of Code](https://img.shields.io/badge/Lines_of_Code-748,903%20and%20counting-yellow?style=for-the-badge)](https://github.com/developer020)
 [![GitHub Days](https://raw.githubusercontent.com/developer020/github-metrics/main/days.svg)](https://github.com/developer020)  
 
 <h3 align="left">GitHub Stats:</h3>
