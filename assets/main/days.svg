@@ -1,0 +1,37 @@
+name: Update GitHub Metrics
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Calculate GitHub Days
+        id: days
+        run: |
+          START_DATE="2022-06-01"
+          TODAY=$(date -u +%Y-%m-%d)
+          DAYS=$(( ( $(date -d "$TODAY" +%s) - $(date -d "$START_DATE" +%s) ) / 86400 ))
+          echo "DAYS=$DAYS" >> $GITHUB_ENV
+          echo "Days since $START_DATE: $DAYS"
+
+      - name: Generate GitHub Days Badge
+        run: |
+          DAYS_LABEL="GitHub Days"
+          DAYS_VALUE="$DAYS"
+          BADGE_FILE="days.svg"
+
+          curl -s "https://img.shields.io/badge/${DAYS_LABEL}-${DAYS_VALUE}-blue?style=for-the-badge" --output $BADGE_FILE
+
+      - name: Update README
+        run: |
+          if grep -q "github-metrics/days.svg" README.md; then
+            git add days.svg
+            git commit -m "Update GitHub Days badge"
+            git push
+          fi
