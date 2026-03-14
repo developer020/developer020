@@ -10,13 +10,13 @@ co-founder @ building
 
 | Feature | Description / Impact |
 |---------|--------------------|
-| ChatGPT Mobile App | Built in Swift when it was only a web app 🖥️📱, fun weekend project |
 | Peer-to-Peer Marketplace | Developed end-to-end marketplace for millions of users 🛒🌍 |
 | IMEI Code Collection | Automated IMEI collection technology 📲⚡ |
 | AI Chat & Email-to-App | Increased user satisfaction by 45% 🤖💬 |
 | Live Video Support | Fixed device software issues via live virtual support 🎥🛠️ |
 | VR Hardware Tool | Resolved hardware issues virtually 🕶️🔧 |
 | End-of-Life Device Reimagination | Initiative garnered hundreds of millions of attention on socials 💡🔥 |
+| ChatGPT Mobile App | Built in Swift when it was only a web app 🖥️📱, fun weekend project |
 
 ---
 
