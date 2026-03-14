@@ -1,8 +1,8 @@
-# hey, i'm Zee
+# hey, i'm Zamzam
 
 ---
 
-co-founder @ building something cool
+co-founder @ building
 
 ---
 
