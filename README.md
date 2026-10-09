@@ -47,8 +47,8 @@ founder @ 2 AI-native products
 <!-- [![GitHub Days](https://raw.githubusercontent.com/developer020/developer020/main/assets/main/days.svg)](https://github.com/developer020) -->
 
 <!-- <h3 align="left">GitHub Stats:</h3> -->
-<p>
-  <a><img align="center" src="https://streak-stats.demolab.com?user=developer020&theme=dark" alt="Zamzam Ali's GitHub streak" /></a>
-</p>
+<!-- <p>
+  <a href="https://github.com/iamphill/streak-stats"><img align="center" src="https://streak-stats.demolab.com?user=developer020&theme=dark" alt="Zamzam Ali's GitHub streak" /></a>
+</p> -->
 
 ---
