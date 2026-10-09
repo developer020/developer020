@@ -1,4 +1,4 @@
-# hey, i'm Zamzam
+# hey, i'm zamzam
 
 ---
 
