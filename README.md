@@ -48,15 +48,7 @@ founder @ 2 AI-native products
 
 <!-- <h3 align="left">GitHub Stats:</h3> -->
 <p>
-  <a href="https://github.com/iamphill/streak-stats"><img align="center" src="https://streak-stats.demolab.com?user=developer020&theme=dark" alt="Zamzam Ali's GitHub streak" /></a>
+  <a><img align="center" src="https://streak-stats.demolab.com?user=developer020&theme=dark" alt="Zamzam Ali's GitHub streak" /></a>
 </p>
-
----
-
-just a Parisian who loves rain and pasta ☔🍝
-
----
-
-if you’ve read this far you’re a real one, or a recruiter
 
 ---
