@@ -50,5 +50,3 @@ founder @ 2 AI-native products
 <!-- <p>
   <a href="https://github.com/iamphill/streak-stats"><img align="center" src="https://streak-stats.demolab.com?user=developer020&theme=dark" alt="Zamzam Ali's GitHub streak" /></a>
 </p> -->
-
----
