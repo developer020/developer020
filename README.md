@@ -40,10 +40,10 @@ every tool thanks to AI-assisted engineering and my foundations in CS ⚙️
 founder @ 2 AI-native products
 
 ---
-
+<!--
 ## 📊 GitHub Metrics
 
-[![Commits](https://img.shields.io/badge/Commits-748,903%20and%20counting-yellow?style=for-the-badge)](https://github.com/developer020)
+[![Commits](https://img.shields.io/badge/Commits-748,903%20and%20counting-yellow?style=for-the-badge)](https://github.com/developer020)  -->
 <!-- [![GitHub Days](https://raw.githubusercontent.com/developer020/developer020/main/assets/main/days.svg)](https://github.com/developer020) -->
 
 <!-- <h3 align="left">GitHub Stats:</h3> -->
